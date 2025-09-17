@@ -55,21 +55,20 @@ You can choose between two installation methods:
 This is the fastest and easiest way. Open your terminal and run the following command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/aljailane/aljailane-tools/main/install.sh | sudo bash
 ```
-*Note: Replace `YOUR_USERNAME/YOUR_REPO` with your actual GitHub username and repository name.*
 
 ### Method 2: Manual Installation
 This method gives you more control and allows you to review the code before installation.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+    git clone https://github.com/aljailane/aljailane-tools.git
     ```
 
 2.  **Navigate into the directory:**
     ```bash
-    cd YOUR_REPO
+    cd aljailane-tools
     ```
 
 3.  **Run the installer script:**
@@ -111,7 +110,7 @@ If you installed **manually**, you can update by navigating to the repository fo
 If you installed **automatically**, the easiest way to update is to re-run the installation command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/aljailane/aljailane-tools/main/install.sh | sudo bash
 ```
 
 ## <a name="uninstallation"></a>🗑️ Uninstallation
@@ -121,21 +120,21 @@ You can uninstall the suite using the method that corresponds to your installati
 ### Method 1: Automatic Uninstallation
 Run the following command in your terminal:
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/uninstall.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/aljailane/aljailane-tools/main/uninstall.sh | sudo bash
 ```
 
 ### Method 2: Manual Uninstallation
 If you still have the repository folder, navigate into it and run the script:
 ```bash
 # Navigate into the repository directory first
-cd YOUR_REPO 
+cd aljailane-tools 
 sudo ./uninstall.sh
 ```
 The uninstaller will remove the `aljailane` command and all its files, and will ask for confirmation before deleting any data directories (logs, reports, etc.).
 
 ## <a name="contribution"></a>🤝 Contribution
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/YOUR_USERNAME/YOUR_REPO/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/aljailane/aljailane-tools/issues).
 
 ## <a name="license"></a>📄 License
 
@@ -178,21 +177,20 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 هذه هي الطريقة الأسرع والأسهل. افتح الطرفية وقم بتشغيل الأمر التالي:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/aljailane/aljailane-tools/main/install.sh | sudo bash
 ```
-*ملاحظة: استبدل `YOUR_USERNAME/YOUR_REPO` باسم المستخدم والمستودع الخاص بك على GitHub.*
 
 ### الطريقة الثانية: التثبيت اليدوي
 تمنحك هذه الطريقة مزيدًا من التحكم وتسمح لك بمراجعة الكود قبل التثبيت.
 
 1.  **استنساخ المستودع:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+    git clone https://github.com/aljailane/aljailane-tools.git
     ```
 
 2.  **الانتقال إلى المجلد:**
     ```bash
-    cd YOUR_REPO
+    cd aljailane-tools
     ```
 
 3.  **تشغيل سكربت المثبت:**
@@ -231,7 +229,7 @@ aljailane
 إذا قمت بالتثبيت **تلقائيًا**، فإن أسهل طريقة للتحديث هي إعادة تشغيل أمر التثبيت:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/aljailane/aljailane_tools/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/aljailane/aljailane-tools/main/install.sh | sudo bash
 ```
 
 ## 🗑️ إلغاء التثبيت
@@ -241,21 +239,21 @@ curl -sSL https://raw.githubusercontent.com/aljailane/aljailane_tools/main/insta
 ### الطريقة الأولى: إلغاء التثبيت التلقائي
 قم بتشغيل الأمر التالي في الطرفية:
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/uninstall.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/aljailane/aljailane-tools/main/uninstall.sh | sudo bash
 ```
 
 ### الطريقة الثانية: إلغاء التثبيت اليدوي
 إذا كان لا يزال لديك مجلد المستودع، فانتقل إليه وقم بتشغيل السكربت:
 ```bash
 # انتقل إلى مجلد المستودع أولاً
-cd YOUR_REPO 
+cd aljailane-tools 
 sudo ./uninstall.sh
 ```
 سيقوم سكربت إلغاء التثبيت بإزالة الأمر `aljailane` وجميع ملفاته، وسيطلب تأكيدك قبل حذف أي مجلدات بيانات (سجلات، تقارير، إلخ).
 
 ## 🤝 المساهمة
 
-المساهمات، الإبلاغ عن المشاكل، وطلبات الميزات هي موضع ترحيب! لا تتردد في مراجعة [صفحة المشاكل (issues)](https://github.com/YOUR_USERNAME/YOUR_REPO/issues).
+المساهمات، الإبلاغ عن المشاكل، وطلبات الميزات هي موضع ترحيب! لا تتردد في مراجعة [صفحة المشاكل (issues)](https://github.com/aljailane/aljailane-tools/issues).
 
 ## 📄 الترخيص
 
