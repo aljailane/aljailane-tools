@@ -2,7 +2,7 @@
 
 #================================================================================
 # المثبت الاحترافي لأدوات Aljailane (عبر Git)
-# الإصدار: 2.1 (معالج للحالات الشاذة ومقاوم للأخطاء)
+# الإصدار: 2.2 (تحديث قسري ومقاوم للأخطاء)
 # المؤلف: تم إنشاؤه وتطويره بواسطة Manus لـ aljailane
 # الوصف: يقوم بجلب وتثبيت أحدث إصدار من أدوات Aljailane مباشرة من GitHub.
 #================================================================================
@@ -57,15 +57,17 @@ fi
 # 2. Install dependencies
 install_dependencies
 
-# 3. [IMPROVED] Clone or update the repository intelligently
+# 3. [FINAL] Clone or perform a forced update
 if [ -d "$INSTALL_DIR/.git" ]; then
-    # If it's a valid git repo, pull updates
     echo "Updating existing installation in $INSTALL_DIR..."
     cd "$INSTALL_DIR"
-    git pull origin main
+    # Fetch the latest changes from the remote repository
+    git fetch origin main
+    # Reset the local branch to match the remote branch, discarding any local changes
+    echo "Forcing update to the latest version..."
+    git reset --hard origin/main
     cd - > /dev/null
 else
-    # If the directory exists but is not a git repo, or doesn't exist at all
     if [ -d "$INSTALL_DIR" ]; then
         echo "Found a non-git directory at $INSTALL_DIR. Removing for a clean installation."
         rm -rf "$INSTALL_DIR"
@@ -91,5 +93,4 @@ echo "  $COMMAND_NAME"
 echo ""
 echo "--------------------------------------------------"
 
-exit 0
 exit 0
