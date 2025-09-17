@@ -3,7 +3,7 @@
 #================================================================================
 # المشغل الرئيسي لأدوات Aljailane
 # الإصدار: 2.5 (إصلاح نهائي للمسارات باستخدام readlink)
-# المؤلف: تم إنشاؤه وتطويره بواسطة Manus لـ aljailane
+# المؤلف: تم إنشاؤه وتطويره بواسطة aljailane
 # الوصف: واجهة رسومية نصية احترافية لتشغيل مجموعة أدوات إدارة الخادم.
 #================================================================================
 
@@ -53,7 +53,7 @@ load_texts() {
     TEXTS[ar_about_desc_2]="تم تصميمها لتكون نقطة انطلاق مركزية وسهلة الاستخدام"
     TEXTS[ar_about_desc_3]="للوصول إلى مختلف سكربتات إدارة وأمان الخادم."
     TEXTS[ar_about_version]="الإصدار: 2.5"
-    TEXTS[ar_about_author]="تم إنشاؤها وتطويرها بواسطة Manus لـ aljailane"
+    TEXTS[ar_about_author]="تم إنشاؤها وتطويرها بواسطة aljailane"
     TEXTS[ar_script_not_found]="خطأ: ملف الأداة '%s' غير موجود. يرجى التأكد من وجوده في نفس المجلد."
 
     # English Texts
@@ -78,7 +78,7 @@ load_texts() {
     TEXTS[en_about_desc_2]="It is designed as a central and user-friendly starting point"
     TEXTS[en_about_desc_3]="to access various server management and security scripts."
     TEXTS[en_about_version]="Version: 2.5"
-    TEXTS[en_about_author]="Created and developed by Manus for aljailane"
+    TEXTS[en_about_author]="Created and developed by aljailane"
     TEXTS[en_script_not_found]="Error: The tool script '%s' was not found. Please ensure it is in the same directory."
 }
 
